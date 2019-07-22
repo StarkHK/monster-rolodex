@@ -1,0 +1,27 @@
+.button {
+    float: none;
+    min-width: 150px;
+    max-width: 250px;
+    display: block;
+    margin: 1em;
+    padding: 1em 2em;
+    border: 0px;
+    background: tan;
+    color: red;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    background-color: cyan;
+  
+  }
+  .button:focus {
+    outline: 20px;
+    animation-direction: reverse;
+  }
+  
+  .button > span {
+    vertical-align: middle;
+  }
+  .button--round-s {
+    border-radius: 5px;
+  }
