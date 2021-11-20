@@ -8,7 +8,8 @@ class CardList extends React.Component{
         this.state = {}
     }
 
-    render(){
+    render() 
+    {
         return (
            <div className='card-container'>   
             <div className='card-list'>
@@ -16,7 +17,8 @@ class CardList extends React.Component{
               Name = `{this.props.userData.first_name} {this.props.userData.last_name}`
                 <Link to={`user/${this.props.userData.id}/`}>CLICK HERE TO KNOW MORE</Link>
                 
-            </div></div>
+            </div>
+            </div>
             
         )
     }

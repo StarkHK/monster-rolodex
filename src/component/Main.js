@@ -1,5 +1,4 @@
 import React from 'react';
-// import { BrowserRouter as Link } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import './../css/style.css'
 import './../index.css'
@@ -8,6 +7,7 @@ class Main extends React.Component{
     constructor(props){
         super(props);
         this.state = {}
+        
     }
 
     render(){
